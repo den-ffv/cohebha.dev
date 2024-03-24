@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import "./Fooret.scss";
 function Fooret() {
   return (
-    <div>Fooret</div>
-  )
+    <footer className="footer">
+     <p>Produced and maintained by Bohdan Chokhlenko</p>
+     <a href="mailto:chokhlenkoo@gmail.com">chokhlenkoo@gmail.com</a>
+    </footer>
+  );
 }
 
-export default Fooret
+export default Fooret;

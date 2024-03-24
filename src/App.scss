@@ -1,31 +1,41 @@
 @import "variable";
-.content{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    max-width: 580px;
-    padding: 0px 10px 0px 10px;
-    margin: 0 auto;
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 580px;
+  padding: 0px 10px 0px 10px;
+  margin: 0 auto;
 }
-.main{
-    flex-grow: 1;
+.main {
+  flex-grow: 1;
+}
+
+.main-title {
+  padding: 60px 0;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 35.2px;
+
+  &__span {
+    color: #737373;
+  }
 }
 
 body {
-    &.light-theme {
-        background-color: $light-background-color;
-        color: $light-text-color;
-        a{
-            color: $light-text-color;
-        }
+  &.light-theme {
+    background-color: $light-background-color;
+    color: $light-text-color;
+    a {
+      color: $light-text-color;
     }
-    &.dark-theme {
-        background-color: $dark-background-color;
-        color: $dark-text-color;
-        a{
-            color: $dark-text-color;
-        }
+  }
+  &.dark-theme {
+    background-color: $dark-background-color;
+    color: $dark-text-color;
+    a {
+      color: $dark-text-color;
     }
+  }
 }
-
-

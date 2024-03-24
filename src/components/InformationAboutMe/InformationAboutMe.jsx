@@ -2,11 +2,11 @@ import React from "react";
 import "./InformationAboutMe.scss";
 function InformationAboutMe() {
   return (
-    <div className="information_about_me">
-      <h1>
+    <div >
+      <h1 className="main-title">
         Bohdan Chokhlenko
         <br />
-        <span className="information_about_me__position">
+        <span className="main-title__span">
           Full-stack Developer
      
         </span>
@@ -17,7 +17,7 @@ function InformationAboutMe() {
         <p className="work_indicator__text">Open for new opportunities</p>
       </div>
       <div className="section-block-text">
-        <p>
+        <p className="main-taxt-color">
           I'm currently doing some web design stuff at GitHub. I'm used to working in fast-paced environments and collaborating
           with interdisciplinary teams. My specialty is web design but have been enjoying creating all sorts of visuals like
           icons, illustrations and prototypes.

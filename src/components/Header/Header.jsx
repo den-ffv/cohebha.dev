@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./Header.scss"
 
 function Header({ items }) {
-  console.log(items);
   return (
     <header className="header">
       <Link className="logo" to={"/"}></Link>

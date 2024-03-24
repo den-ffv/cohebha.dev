@@ -1,8 +1,11 @@
 import React from 'react';
+import WorksBlock from '../components/Works/WorksBlock';
 
 function Work() {
   return (
-    <div>Work</div>
+    <div>
+      <WorksBlock></WorksBlock>
+    </div>
   )
 }
 

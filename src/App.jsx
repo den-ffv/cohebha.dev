@@ -7,6 +7,8 @@ import Work from "./pages/Work";
 import Note from "./pages/Note";
 import Header from "./components/Header/Header";
 import Fooret from "./components/Footer/Fooret";
+import FullWork from "./pages/FullWork";
+import FullNote from "./pages/FullNote";
 
 function App() {
   const [theme, setTheme] = useState(false);
@@ -46,7 +48,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/work/:id" element={<FullWork />} />
           <Route path="/note" element={<Note />} />
+          <Route path="/note/:id" element={<FullNote />} />
         </Routes>
       </main>
       <Fooret />

@@ -1,14 +1,3 @@
-.information_about_me {
-  padding: 60px 0;
-  font-size: 32px;
-  font-weight: 500;
-  letter-spacing: -1px;
-  line-height: 35.2px;
-
-  &__position{
-    color: #737373;
-  }
-}
 .indicator {
   display: flex;
   align-items: center;
@@ -23,18 +12,31 @@
   &__color {
     display: block;
     background: rgb(7, 157, 7);
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     margin-right: 10px;
     border-radius: 100%;
+    animation: opasityAnimation 2s infinite;
   }
 }
-.section-block-text {
-  p {
+
+  .main-taxt-color {
     font-size: 16px;
     line-height: 22.4px;
     letter-spacing: normal;
     font-weight: normal;
     color: #828282;
   }
+
+
+@keyframes opasityAnimation{
+  100%{
+    opacity: 1;
+  };
+  50%{
+    opacity: 0.2;
+  };
+  0%{
+    opacity: 1;
+  };
 }

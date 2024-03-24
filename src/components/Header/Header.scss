@@ -1,0 +1,32 @@
+
+.logo {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #372df8;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 55px 0px 0px 0px ;
+  &__link {
+    margin: 0px 8px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    &:hover{
+        color: #575757;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9vh 0;
+    border-top: 1px solid #D4D4D4;
+    font-size: 16px;
+    &__name {
+        
+        text-transform: capitalize;
+    }
+
+    &__link {
+        text-decoration: none;
+        
+    }
+}
+

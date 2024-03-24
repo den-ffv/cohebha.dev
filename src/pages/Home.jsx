@@ -1,8 +1,13 @@
 import React from 'react';
+import InformationAboutMe from '../components/InformationAboutMe/InformationAboutMe';
+import ContactBlock from '../components/Contact/ContactBlock';
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <InformationAboutMe/>
+      <ContactBlock/>
+    </div>
   )
 }
 
